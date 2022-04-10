@@ -13,6 +13,7 @@ public class ImplementingThePrintMethod {
 
     public static void print(String text) {
         //напишите тут ваш код
+
         System.out.println(text);
         System.out.println(text);
         System.out.println(text);
