@@ -1,6 +1,5 @@
 package JavaSyntax.Level02.Lecture02;
-/*
-Откуда берутся Person?
+/*Откуда берутся Person?
 В классе Person объяви следующие переменные: name типа String, age типа int, weight типа int, money типа int.
 В методе main создай объект Person, занеси его ссылку в переменную person.
 */
