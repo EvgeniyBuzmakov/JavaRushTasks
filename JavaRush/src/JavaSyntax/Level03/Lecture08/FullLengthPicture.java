@@ -11,7 +11,6 @@ package JavaSyntax.Level03.Lecture08;
 
 public class FullLengthPicture {
 
-
     public static void main(String[] args) {
         System.out.println(getMetreFromCentimetre(243));
     }
