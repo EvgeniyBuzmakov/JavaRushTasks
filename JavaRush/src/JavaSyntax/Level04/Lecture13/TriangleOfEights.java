@@ -17,19 +17,36 @@ package JavaSyntax.Level04.Lecture13;
 public class TriangleOfEights {
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
+// решение задачи не по заданию, вывожу тоже треугольник, но у него угол в другую сторону
+            int n = 10;
 
-        int n = 10;
+            for (int i=1; i<=n; i++) {
 
-        for (int i=1; i<=n; i++) {
-            for (int j=0; j<i; j++) {
-                System.out.print(8);
+                for (int k=10; k>i; k--) System.out.print(" ");
+
+                for (int j=0; j<i; j++) {
+                     System.out.print(8);
+                }
+
+                System.out.println();
             }
-            System.out.println();
         }
     }
-}
+
+// решение задачи по заданию
+//        int n = 10;
+//
+//        for (int i=1; i<=n; i++) {
+//            for (int j=0; j<i; j++) {
+//                 System.out.print(8);
+//            }
+//            System.out.println();
+//        }
+//    }
+//}
 
 
+// решение задачи по заданию
 //    public static void main(String[] args) throws Exception {
 //        for (int i = 1; i <= 10; i++) {
 //            for (int j = 1; j <= i; j++) {
