@@ -12,8 +12,8 @@ public class DisplayTodaysDate {
 
         //напишите тут ваш код
         Date date = new Date();
-        SimpleDateFormat format = new SimpleDateFormat ("dd MM yyyy");
+        SimpleDateFormat formatForDateNow = new SimpleDateFormat ("dd MM yyyy");
 
-        System.out.println(format.format(date));
+        System.out.println(formatForDateNow.format(date));
     }
 }
