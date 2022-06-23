@@ -12,7 +12,7 @@ import java.io.InputStreamReader;
 Вывести на экран сообщение: "Even: а Odd: b", где а - количество четных цифр, b - количество нечетных цифр.
 Пример для числа 4445:
 Even: 3 Odd: 1
- */
+ ***/
 public class EvenAndOddNumbers {
 
     public static int even;
