@@ -1,6 +1,6 @@
 package JavaCore.Level01.Lecture08;
 
-/*Не забываем инкапсулировать
+/***Не забываем инкапсулировать
 Посмотри внимательно на методы и добавь недостающие поля.
  */
 public class DontForgetToEncapsulate {
